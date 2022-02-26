@@ -16,7 +16,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><span class="shop">Skateshop</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,13 +35,13 @@
                   Skateboards
                 </a>
                 <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" style="color: lightgrey" href="#">Boards</a></li>
-                  <li><a class="dropdown-item" style="color: lightgrey" href="#">Grips</a></li>
-                  <li><a class="dropdown-item" style="color: lightgrey" href="#">Wheels</a></li>
-                  <li><a class="dropdown-item" style="color: lightgrey" href="#">Trucks</a></li>
-                  <li><a class="dropdown-item" style="color: lightgrey" href="#">Bearings</a></li>
-                  <li><hr class="dropdown-divider" style="color: lightgrey"></li>
-                  <li><a class="dropdown-item" style="color: lightgrey" href="#">More...</a></li>
+                  <li><a class="dropdown-item" href="#">Boards</a></li>
+                  <li><a class="dropdown-item" href="#">Grips</a></li>
+                  <li><a class="dropdown-item" href="#">Wheels</a></li>
+                  <li><a class="dropdown-item" href="#">Trucks</a></li>
+                  <li><a class="dropdown-item" href="#">Bearings</a></li>
+                  <li><hr class="dropdown-divider" style="color: lightgray"></li>
+                  <li><a class="dropdown-item" href="#">More...</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -49,11 +49,11 @@
                   Aggressive Inline
                 </a>
                 <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" style="color: lightgrey" href="#">Boots</a></li>
-                  <li><a class="dropdown-item" style="color: lightgrey" href="#">Franes</a></li>
-                  <li><a class="dropdown-item" style="color: lightgrey" href="#">Wheels</a></li>
-                  <li><a class="dropdown-item" style="color: lightgrey" href="#">Bearings</a></li>
-                  <li><a class="dropdown-item" style="color: lightgrey" href="#">Laces</a></li>
+                  <li><a class="dropdown-item" href="#">Boots</a></li>
+                  <li><a class="dropdown-item" href="#">Franes</a></li>
+                  <li><a class="dropdown-item" href="#">Wheels</a></li>
+                  <li><a class="dropdown-item" href="#">Bearings</a></li>
+                  <li><a class="dropdown-item" href="#">Laces</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown bg-dark">
@@ -61,11 +61,11 @@
                   Accessories
                 </a>
                 <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" style="color: lightgrey" href="#">Protectors</a></li>
-                  <li><a class="dropdown-item" style="color: lightgrey" href="#">Key rings</a></li>
-                  <li><a class="dropdown-item" style="color: lightgrey" href="#">Stickers</a></li>
-                  <li><hr class="dropdown-divider" style="color: lightgrey"></li>
-                  <li><a class="dropdown-item" style="color: lightgrey" href="#">More...</a></li>
+                  <li><a class="dropdown-item" href="#">Protectors</a></li>
+                  <li><a class="dropdown-item" href="#">Key rings</a></li>
+                  <li><a class="dropdown-item" href="#">Stickers</a></li>
+                  <li><hr class="dropdown-divider" style="color: lightgray"></li>
+                  <li><a class="dropdown-item" href="#">More...</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown bg-dark">
@@ -73,12 +73,12 @@
                   Clothes
                 </a>
                 <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" style="color: lightgrey" href="#">Hood sweatshirts</a></li>
-                  <li><a class="dropdown-item" style="color: lightgrey" href="#">Trousers</a></li>
-                  <li><a class="dropdown-item" style="color: lightgrey" href="#">T-shirts</a></li>
-                  <li><a class="dropdown-item" style="color: lightgrey" href="#">Boots</a></li>
-                  <li><a class="dropdown-item" style="color: lightgrey" href="#">Caps</a></li>
-                  <li><a class="dropdown-item" style="color: lightgrey" href="#">Stripes</a></li>
+                  <li><a class="dropdown-item" href="#">Hood sweatshirts</a></li>
+                  <li><a class="dropdown-item" href="#">Trousers</a></li>
+                  <li><a class="dropdown-item" href="#">T-shirts</a></li>
+                  <li><a class="dropdown-item" href="#">Boots</a></li>
+                  <li><a class="dropdown-item" href="#">Caps</a></li>
+                  <li><a class="dropdown-item" href="#">Stripes</a></li>
                 </ul>
               </li>
             </ul>
@@ -91,6 +91,48 @@
           </div>
         </div>
       </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide carousel-height" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/pexels-photo-58729_1.jpeg" class="d-block w-100" alt="image1">
+            <div class="carousel-caption">
+              <p class="fs-1 font-monospace">Skateboarding</p>
+              <p class="fs-3 font-monospace">Especially for you. New brands in our shop.</p>
+              <button type="button" class="btn btn-dark">Check this out</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/pexels-photo-6599376_2.jpeg" class="d-block w-100" alt="image2">
+            <div class="carousel-caption">
+              <p class="fs-1 font-monospace">Aggressive Inline</p>
+              <p class="fs-3 font-monospace">New Ground Control frames are available!</p>
+              <button type="button" class="btn btn-dark">Buy now</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/pexels-photo-5818752_3.jpeg" class="d-block w-100" alt="image2">
+            <div class="carousel-caption">
+              <p class="fs-1 font-monospace">Events</p>
+              <p class="fs-3 font-monospace">Check upcoming competition in 2022</p>
+              <button type="button" class="btn btn-dark">Sign up</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
 
       

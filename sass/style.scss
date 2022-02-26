@@ -1,8 +1,51 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+/* Variables */
+
+$leading-color: rgb(175, 40, 96);
+
+/* Mixins */
+
+@mixin gold-shadow-text {
+    color: $leading-color;
+    text-shadow: 2px 2px 5px #000;  
+}
+
+/* Navbar */
 
 .shop {
-    color: goldenrod;
+   @include gold-shadow-text();
 }
 
-a.dropdown-item:hover {
-    background-color: rgb(49, 48, 48);
+a.dropdown-item {
+
+    color: lightgray;
+
+&:hover {
+    background-color: inherit;
+    color: $leading-color;
 }
+}
+
+.d-flex i {    
+    color: $leading-color;    
+}
+
+/* Carousel */
+
+.carousel-inner, .carousel-item {
+  height: 100vh;
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-caption > p {
+    text-shadow: 2px 2px 5px #000;
+        &:nth-child(2) {
+            color: $leading-color;
+    }
+}
+
