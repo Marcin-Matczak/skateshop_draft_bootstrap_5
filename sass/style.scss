@@ -52,8 +52,6 @@ a.dropdown-item {
     }
 }
 
-
-
 /* Content */
 
 .card img {
@@ -62,7 +60,19 @@ a.dropdown-item {
     object-fit: cover; 
 }
 
+/* Service */
+
 .c-height {
     height: 200px;
 }
 
+.contact-area {
+    background-color: $gray-200;
+}
+
+/* Footer */
+
+.footer {
+    background-color: $gray-800;
+    color: $gray-100;
+}
