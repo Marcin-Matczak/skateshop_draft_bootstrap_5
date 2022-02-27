@@ -45,9 +45,12 @@ a.dropdown-item {
 .carousel-caption > p {
     text-shadow: 2px 2px 5px #000;
         &:nth-child(2) {
-            color: $leading-color;
+            background-color: rgba(0, 0, 0, 0.4);
+            display: block;          
     }
 }
+
+
 
 /* Content */
 
