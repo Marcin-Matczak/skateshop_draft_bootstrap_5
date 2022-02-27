@@ -3,6 +3,7 @@
 /* Variables */
 
 $leading-color: rgb(175, 40, 96);
+$second-color: lightgray;
 
 /* Mixins */
 
@@ -19,7 +20,7 @@ $leading-color: rgb(175, 40, 96);
 
 a.dropdown-item {
 
-    color: lightgray;
+    color: $second-color;
 
 &:hover {
     background-color: inherit;
@@ -43,8 +44,9 @@ a.dropdown-item {
 }
 
 .carousel-caption > p {
-    text-shadow: 2px 2px 5px #000;
+    @include gold-shadow-text();
         &:nth-child(2) {
+            color: $second-color;
             background-color: rgba(0, 0, 0, 0.4);
             display: block;          
     }
@@ -60,4 +62,7 @@ a.dropdown-item {
     object-fit: cover; 
 }
 
+.c-height {
+    height: 200px;
+}
 
